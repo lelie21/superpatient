@@ -245,6 +245,7 @@ class BillDialog(wx.Dialog):
 
     def on_add_position(self, event):
         self.add_position()
+        self.Layout()
 
     def add_position(self, position=None, readonly=False):
         tarif_code_widget = self._gen_tarif_code()
