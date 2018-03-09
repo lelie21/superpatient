@@ -125,15 +125,6 @@ CREATE TABLE `tarifs` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `tarifs`
---
-
-LOCK TABLES `tarifs` WRITE;
-/*!40000 ALTER TABLE `tarifs` DISABLE KEYS */;
-INSERT INTO `tarifs` VALUES ('entre 21 et 30 minutes',10000),('entre 31 et 40 minutes',11000),('entre 41 et 50 minutes',12000);
-/*!40000 ALTER TABLE `tarifs` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `therapeutes`
@@ -152,19 +143,4 @@ CREATE TABLE `therapeutes` (
 -- Dumping data for table `therapeutes`
 --
 
-LOCK TABLES `therapeutes` WRITE;
-/*!40000 ALTER TABLE `therapeutes` DISABLE KEYS */;
-INSERT INTO `therapeutes` VALUES ('tib','Tibor Csernay\nDipl. CDS-GDK\nRCC U905461'),('ch','Christophe Guinand\nDipl. CDS-GDK\nRME 20663\nRCC H503260'),('lik','Laure-Isabelle Kazemi\nMembre FSO-SVO\nDipl. CDS-GDK\nRCC K097161\nASCA K587449'),('mel','Mélanie Zurbuchen\nRME 28907\nRCC K349160'),('gal','Gaëlle Langel\nRME 29248\nRCC F342060'),('sts','Stéphanie Schmid\nRME 30427\nRCC S632862');
-/*!40000 ALTER TABLE `therapeutes` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed on 2015-07-22  7:26:50
